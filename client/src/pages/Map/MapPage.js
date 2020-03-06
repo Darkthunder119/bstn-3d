@@ -1,10 +1,8 @@
 import React from 'react';
 import '../../App.scss';
 import Main from '../../components/main/Main.js'
-import Footer from '../../components/Footer/Footer'
 import Iframe from 'react-iframe'
-import Header from '../../components/Header/Header'
-import Nav from '../../components/Nav/Nav'
+
 import { Helmet } from 'react-helmet';
 
 function MapPage() {
