@@ -16,12 +16,13 @@ function MapPage() {
       </Helmet>
 
 
-      <Main>
+      <div>
         <Iframe url="https://darkthunder119.github.io/"
         className="iFrame"
         display="initial"
-        position="relative"/>
-      </Main>      
+        width="1200px"
+        height="2000px"/>
+      </div>      
 
     </div>
   );
