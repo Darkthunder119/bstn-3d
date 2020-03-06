@@ -1,6 +1,11 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.scss';
+import Main from './components/main/Main.js'
+import CardMedium from './components/cardMedium/CardMedium'
+import CardLarge from './components/cardLarge/CardLarge'
+import CardSmall from './components/cardSmall/CardSmall'
+
 
 import { Helmet } from 'react-helmet';
 
@@ -13,14 +18,16 @@ function App() {
       <Helmet>
         <title>Blog-iNDy</title>
       </Helmet>
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <h2>Brainstation 3D Starter</h2>
-        <h3>Group 4</h3>
-      </header>
+      <Main />
+      <div className="App__cardContent">
+          <div className="app__column1">
+
+          </div>
+        <CardMedium />
+        <CardLarge />
+        <CardLarge />
+        <CardSmall />
+      </div>
     </div>
   );
 }
