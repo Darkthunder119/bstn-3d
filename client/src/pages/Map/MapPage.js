@@ -2,7 +2,7 @@ import React from 'react';
 import '../../App.scss';
 import Main from '../../components/main/Main.js'
 import Iframe from 'react-iframe'
-
+import imgstuff from '../../Assets/Images/screen.png'
 import { Helmet } from 'react-helmet';
 
 function MapPage() {
@@ -21,7 +21,8 @@ function MapPage() {
         className="iFrame"
         display="initial"
         width="1200px"
-        height="2000px"/>
+        height="1200px"/>
+        <img src={imgstuff}/>
       </div>      
 
     </div>
