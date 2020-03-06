@@ -1,9 +1,12 @@
 import React from 'react';
 import '../../App.scss';
 import Main from '../../components/main/Main.js'
-import CardMedium from '../../components/cardMedium/CardMedium'
-import CardLarge from '../../components/cardLarge/CardLarge'
-import CardSmall from '../../components/cardSmall/CardSmall'
+import Card1 from '../../components/card1/Card1'
+import Card2 from '../../components/card2/Card2'
+import Card3 from '../../components/card3/Card3'
+import Card4 from '../../components/card4/Card4'
+import Card5 from '../../components/card5/Card5'
+import Card6 from '../../components/card6/Card6'
 import Footer from '../../components/Footer/Footer'
 import Header from '../../components/Header/Header'
 import Nav from '../../components/Nav/Nav'
@@ -22,17 +25,17 @@ function Default() {
       <Main />
       <div className="App__cardContent">
           <div className="App__column1">
-            <CardMedium /> 
-            <CardSmall />
-            <CardMedium />
+            <Card1 /> 
+            <Card2 />
+          
           </div>
           <div className="App__column2">
-            <CardMedium />
-            <CardLarge />
+            <Card3 />
+            <Card4 />
           </div>
           <div className="App__column3">
-            <CardLarge />
-            <CardMedium />
+            <Card5 />
+            <Card6 />
           </div>
       </div>
     </div>
