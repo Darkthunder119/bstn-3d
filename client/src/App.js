@@ -6,7 +6,6 @@ import Default from '../src/pages/Default/Default'
 import MapPage from '../src/pages/Map/MapPage'
 import Header from '../src/components/Header/Header'
 import Nav from '../src/components/Nav/Nav'
-import Footer from '../src/components/Footer/Footer'
 
 function App() {
   return (
