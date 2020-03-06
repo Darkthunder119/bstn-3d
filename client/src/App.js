@@ -4,8 +4,7 @@ import Main from './components/main/Main.js'
 import CardMedium from './components/cardMedium/CardMedium'
 import CardLarge from './components/cardLarge/CardLarge'
 import CardSmall from './components/cardSmall/CardSmall'
-
-
+import Footer from '../src/components/Footer/Footer'
 import Iframe from 'react-iframe'
 import Header from '../src/components/Header/Header'
 import Nav from '../src/components/Nav/Nav'
@@ -33,6 +32,7 @@ function App() {
         <CardLarge />
         <CardSmall />
       </div>
+      <Footer />
       {/* <Iframe url="https://darkthunder119.github.io/"
         width="700px"
         height="500px"
