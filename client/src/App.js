@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.scss';
+import Footer from '../src/components/Footer/Footer'
 import {BrowserRouter, Route} from 'react-router-dom'
 import Default from '../src/pages/Default/Default'
 import MapPage from '../src/pages/Map/MapPage'
