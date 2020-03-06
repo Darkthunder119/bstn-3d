@@ -1,0 +1,74 @@
+@import '../../styles/utils/base';
+
+.footer{
+    &__rule{
+        width: 1440px;
+        height: 1px;
+        border: solid 1px #e3e5e8;
+    }
+    &__menu{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }        
+    &__about{
+        width: 88px;
+        height: 29px;
+        font-family: 'Lato';
+        font-size: 24px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        margin-right: 104px;
+    }
+    &__contact{
+        width: 123px;
+        height: 29px;
+        font-family: "Lato";
+        font-size: 24px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        margin-right: 104px;
+    }
+    &__priv{
+        width: 158px;
+        height: 29px;
+        font-family: "Lato";
+        font-size: 24px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        margin-right: 104px;
+
+    }
+    &__terms{
+        width: 158px;
+        height: 29px;
+        font-family: "Lato";
+        font-size: 24px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+    }
+    &__seam{
+        width: 254px;
+        height: 29px;
+        font-family: "Lato";
+        font-size: 16px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        padding-left: 246px;
+    }
+}

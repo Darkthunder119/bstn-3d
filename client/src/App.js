@@ -1,9 +1,10 @@
 import React from 'react';
 import './App.scss';
 import Main from './components/main/Main.js'
-import CardMedium from './components/cardMedium/CardMedium'
-import CardLarge from './components/cardLarge/CardLarge'
-import CardSmall from './components/cardSmall/CardSmall'
+import Card2 from './components/card2/Card2'
+import Card1 from './components/card1/Card1'
+import Card3 from './components/card3/Card3'
+import Footer from '../src/components/Footer/Footer'
 import Iframe from 'react-iframe'
 import Header from '../src/components/Header/Header'
 import Nav from '../src/components/Nav/Nav'
@@ -24,19 +25,17 @@ function App() {
       <Main />
       <div className="App__cardContent">
           <div className="App__column1">
-            <CardMedium /> 
-            <CardSmall />
-            <CardMedium />
+            <Card1 /> 
+            
           </div>
           <div className="App__column2">
-            <CardMedium />
-            <CardLarge />
+            <Card2 />
           </div>
           <div className="App__column3">
-            <CardLarge />
-            <CardMedium />
+            <Card3 />
           </div>
       </div>
+      <Footer />
       {/* <Iframe url="https://darkthunder119.github.io/"
         width="700px"
         height="500px"
