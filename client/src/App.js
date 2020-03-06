@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.scss';
+<<<<<<< HEAD
 import Main from './components/main/Main.js'
 <<<<<<< HEAD
 import Card2 from './components/card2/Card2'
@@ -12,9 +13,14 @@ import CardSmall from './components/cardSmall/CardSmall'
 >>>>>>> 3a2ddccbe1325bc340d22fe3af43f1b8548182cb
 import Footer from '../src/components/Footer/Footer'
 import Iframe from 'react-iframe'
+=======
+import {BrowserRouter, Route} from 'react-router-dom'
+import Default from '../src/pages/Default/Default'
+import MapPage from '../src/pages/Map/MapPage'
+>>>>>>> master
 import Header from '../src/components/Header/Header'
 import Nav from '../src/components/Nav/Nav'
-import { Helmet } from 'react-helmet';
+import Footer from '../src/components/Footer/Footer'
 
 function App() {
   return (
@@ -22,6 +28,7 @@ function App() {
       {/* NOTE: Keep the helmet code below and change the app title.
           Add any meta tags you want, or any tag you want to go in the header. 
           You can modify everything else! */}
+<<<<<<< HEAD
       <Helmet>
         <title>Website Title</title>
       </Helmet>
@@ -49,6 +56,15 @@ function App() {
         className="iFrame"
         display="initial"
         position="relative"/> */}
+=======
+      <BrowserRouter>
+          <Header />
+          <Nav />
+          <Route exact path="/" component={Default}/>
+          <Route path="/map" component={MapPage}/>
+          <Footer />
+      </BrowserRouter>
+>>>>>>> master
     </div>
   );
 }
