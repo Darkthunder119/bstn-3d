@@ -41,7 +41,32 @@
 
 
   width: 1440px;
-  height: 3279px;
+  height: 2679px;
   background-color: $default-background;
 }
 
+.maintest{
+  width: 1039px;
+  height: 245px;
+  text-align: left;
+  padding-left: 200px;
+  &__head{
+    font-family: "Lato";
+    font-size: 24px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+  &__p{
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #858585;
+  }
+}
