@@ -7,7 +7,7 @@ const Header=() =>{
 
     return (
     <header className="header">
-        <h1 className="header__heading">WEBSITE TITLE</h1>
+        <h1 className="header__heading">SEAMLIST</h1>
         <img src={user} alt="userimage" className="header__user-one"/>
         <img src={wheel} alt="settings" className="header__settings"/>
     </header>
