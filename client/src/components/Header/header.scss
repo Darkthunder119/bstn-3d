@@ -1,0 +1,32 @@
+@import '../../styles/utils/base';
+
+.header{
+    display: flex;
+    &__heading{
+        font-family: 'Lato';
+        font-size: 21px;
+        letter-spacing: -0.04px;
+        width: 149px;
+        height: 25px;
+        margin-left: 654px;
+        margin-top: 39px;
+        margin-bottom: 17px;
+    }
+    &__user-one{
+        margin-left: 351px;
+        width: 25px;
+        height: 25px;
+        margin-top: 39px;
+        margin-bottom: 17px;
+
+    }
+    &__settings{
+        margin-left: 30px;
+        width: 25px;
+        height: 25px;
+        margin-top: 39px;
+        margin-right: 206px;
+        margin-bottom: 17px;
+
+    }
+}
