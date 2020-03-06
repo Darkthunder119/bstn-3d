@@ -1,6 +1,6 @@
 // import the base SCSS mixins, variables etc for use in all your components
 @import './styles/utils/base';
-
+@import './styles/reset.scss';
 // TODO: replace the following styles once you start!
 .App {
   text-align: center;
@@ -14,5 +14,8 @@
     width: 1040px;
     flex-wrap: wrap;
   }
+  width: 1440px;
+  height: 2292px;
+  background-color: $default-background;
 }
 
