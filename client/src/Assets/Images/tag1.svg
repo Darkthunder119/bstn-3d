@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="133" height="22" viewBox="0 0 133 22">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#FFF" d="M0 0H1440V2647H0z" transform="translate(-208 -1299)"/>
+        <g transform="translate(-208 -1299) translate(208 1299)">
+            <rect width="133" height="22" fill="#F23F66" rx="2"/>
+            <text fill="#FFF" font-family="Lato-Black, Lato" font-size="12" font-weight="700" letter-spacing=".877">
+                <tspan x="14" y="15">Influencer Op-ed</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

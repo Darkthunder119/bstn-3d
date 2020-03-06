@@ -1,11 +1,40 @@
+@import '../../styles/utils/base';
 
 .card5 {
     width: 100%;
-    height: 810px;
+    height: 750px;
     border-radius: 6px;
     border: solid 1px #979797;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: initial;
+    font-family: 'lato';
+    
     
     &:hover {
         border-color: rgb(117, 146, 223)
     }
 } 
+
+.wrapper {
+    padding: 0 7px;
+}
+
+.tagContainer {
+    display: flex;
+    
+}
+
+.tag {
+    align-self: start;
+}
+
+.tagContent {
+    align-self: start;
+    margin-block-start: 0;
+}
+
+.tagpad {
+    margin-left: 10px;
+}

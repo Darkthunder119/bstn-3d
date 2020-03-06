@@ -1,5 +1,5 @@
 import React from 'react'
-import './card5.scss';
+import './card4.scss';
 
 export default function Card4() {
     return (
