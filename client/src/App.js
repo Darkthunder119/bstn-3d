@@ -19,18 +19,24 @@ function App() {
       <Helmet>
         <title>Website Title</title>
       </Helmet>
- 
+
       <Header />
       <Nav />
       <Main />
       <div className="App__cardContent">
-          <div className="app__column1">
-
+          <div className="App__column1">
+            <CardMedium /> 
+            <CardSmall />
+            <CardMedium />
           </div>
-        <CardMedium />
-        <CardLarge />
-        <CardLarge />
-        <CardSmall />
+          <div className="App__column2">
+            <CardMedium />
+            <CardLarge />
+          </div>
+          <div className="App__column3">
+            <CardLarge />
+            <CardMedium />
+          </div>
       </div>
       <Footer />
       {/* <Iframe url="https://darkthunder119.github.io/"
