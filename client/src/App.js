@@ -11,7 +11,7 @@ function App() {
           Add any meta tags you want, or any tag you want to go in the header. 
           You can modify everything else! */}
       <Helmet>
-        <title>Your App Title Here</title>
+        <title>Blog-iNDy</title>
       </Helmet>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
