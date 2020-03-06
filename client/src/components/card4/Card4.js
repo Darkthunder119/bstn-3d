@@ -4,6 +4,7 @@ import bitmap from "../../Assets/Images/bitmap.png";
 import icon from '../../Assets/Images/new-icon-copy.png'
 import icon2 from '../../Assets/Images/new-icon-copy-5.png'
 
+
 export default function Card4() {
   return (
     <div className="card4">
