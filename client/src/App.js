@@ -1,9 +1,15 @@
 import React from 'react';
 import './App.scss';
 import Main from './components/main/Main.js'
+<<<<<<< HEAD
 import Card2 from './components/card2/Card2'
 import Card1 from './components/card1/Card1'
 import Card3 from './components/card3/Card3'
+=======
+import CardMedium from './components/cardMedium/CardMedium'
+import CardLarge from './components/cardLarge/CardLarge'
+import CardSmall from './components/cardSmall/CardSmall'
+>>>>>>> 3a2ddccbe1325bc340d22fe3af43f1b8548182cb
 import Footer from '../src/components/Footer/Footer'
 import Iframe from 'react-iframe'
 import Header from '../src/components/Header/Header'
