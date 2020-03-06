@@ -11,6 +11,13 @@
         margin-left: 654px;
         margin-top: 39px;
         margin-bottom: 17px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__logo{
+        width: 35px;
+        height: 35px;
+        align-self: center;
     }
     &__user-one{
         margin-left: 351px;
