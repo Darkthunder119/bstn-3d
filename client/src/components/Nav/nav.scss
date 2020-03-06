@@ -29,7 +29,9 @@
     }
     &__map{
         width: 34px;
-        margin-right: 68px;
+        margin-right: 52px;
+        text-decoration: none;
+        color: #000000;
     }
     &__hot{
         width: 61px;
@@ -46,5 +48,7 @@
     &__home{
         margin-right: 52px;
         width: 61px;
+        text-decoration: none;
+        color: #000000;
     }
 }
