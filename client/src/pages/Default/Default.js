@@ -4,9 +4,6 @@ import Main from '../../components/main/Main.js'
 import CardMedium from '../../components/cardMedium/CardMedium'
 import CardLarge from '../../components/cardLarge/CardLarge'
 import CardSmall from '../../components/cardSmall/CardSmall'
-import Footer from '../../components/Footer/Footer'
-import Header from '../../components/Header/Header'
-import Nav from '../../components/Nav/Nav'
 import { Helmet } from 'react-helmet';
 
 function Default() {
